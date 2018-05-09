@@ -14,5 +14,5 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'none',
   jsxBracketSameLine: false,
-  noSemi: false
+  semi: true
 };
