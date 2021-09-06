@@ -7,11 +7,13 @@
   "bugs": {
     "url": "https://github.com/guestlinelabs/prettier-config-guestline/issues"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
-    "prettier": "^1.11.1"
+    "prettier": "^2.3.2"
   },
   "peerDependencies": {
-    "prettier": "^1.11.1"
+    "prettier": "^2.3.2"
   }
 }
