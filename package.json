@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-guestline",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Prettier configuration used by Guestline",
   "repository": "guestlinelabs/prettier-config-guestline",
   "license": "MIT",
@@ -8,9 +8,11 @@
     "url": "https://github.com/guestlinelabs/prettier-config-guestline/issues"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "devDependencies": {
+    "@types/prettier": "^2.4.2",
     "prettier": "^2.3.2"
   },
   "peerDependencies": {
