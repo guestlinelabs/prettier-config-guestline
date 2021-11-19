@@ -13,6 +13,6 @@ module.exports = {
   tabWidth: 2,
   singleQuote: true,
   trailingComma: 'none',
-  jsxBracketSameLine: false,
-  semi: true
+  bracketSameLine: false,
+  semi: true,
 };

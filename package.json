@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-guestline",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Prettier configuration used by Guestline",
   "repository": "guestlinelabs/prettier-config-guestline",
   "license": "MIT",
@@ -13,9 +13,9 @@
   ],
   "devDependencies": {
     "@types/prettier": "^2.4.2",
-    "prettier": "^2.3.2"
+    "prettier": "^2.4.0"
   },
   "peerDependencies": {
-    "prettier": "^2.3.2"
+    "prettier": "^2.4.0"
   }
 }
