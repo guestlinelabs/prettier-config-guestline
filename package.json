@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-guestline",
-  "version": "3.1.0",
+  "version": "3.0.1",
   "description": "Prettier configuration used by Guestline",
   "repository": "guestlinelabs/prettier-config-guestline",
   "license": "MIT",

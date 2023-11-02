@@ -15,7 +15,7 @@ module.exports = {
   trailingComma: 'none',
   bracketSameLine: false,
   semi: true,
-  importOrder: ['^@(mui|emotion)/(.*)$', '^@(.*)/(.*)$', '^[./]'],
+  importOrder: ['^@(react)$', '<THIRD_PARTY_MODULES>', '^@(.*)/(.*)$', '^[./]'],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   importOrderCaseInsensitive: true,
