@@ -15,4 +15,9 @@ module.exports = {
   trailingComma: 'none',
   bracketSameLine: false,
   semi: true,
+  importOrder: ['^@(mui|emotion)/(.*)$', '^@(.*)/(.*)$', '^[./]'],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
+  importOrderCaseInsensitive: true,
+  plugins: ['@trivago/prettier-plugin-sort-imports'],
 };
