@@ -15,7 +15,17 @@ module.exports = {
   trailingComma: 'none',
   bracketSameLine: false,
   semi: true,
-  importOrder: ['^@(mui|emotion)/(.*)$', '^@(.*)/(.*)$', '^[./]'],
+  importOrder: [
+    '^\\u0000',                // Matches all side-effect imports
+    '^\\./init$',              // Matches './init' specifically
+    '^init\\.js$',             // Matches 'init.js'
+    '^style\\.css$',           // Matches 'style.css'
+    '^\\./.*\\.css$',          // Matches relative CSS imports like './style.css'
+    '<THIRD_PARTY_MODULES>',   // Third-party modules
+    '^@(mui|emotion)/(.*)$',   // MUI and Emotion imports
+    '^@(.*)/(.*)$',            // Aliased imports
+    '^[./]',                   // Relative imports
+  ],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   importOrderCaseInsensitive: true,
